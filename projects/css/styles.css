@@ -29,3 +29,18 @@ table td {
     border-right: 1px solid gray;
     padding: 4px;
 }
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(220, 220, 220);
+}
+
+img{
+    border-color:black;
+    border-width:1px;
+    border-style: solid;
+}
+
+footer {
+    background-color: rgb(249, 222, 250);
+}

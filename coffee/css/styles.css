@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    line-height: 1.5;
+    color: black;
+    background-color: #E0E0E0;
+    font-family: Nunito, Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1170px;
+}
+
+header {
+    color: white;
+    padding: 20px 40px;
+    background-color: rgb(69, 69, 134);
+    background-image: url(../images/paul-gilmore-145802-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    line-height: 25%;
+}
+
+header p {
+    font-style: italic;
+}
+
+h1, h2 {
+    font-family: raleway, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-top: 0px;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+dd {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+main{
+    padding: 10px 40px;
+}
+
+img {
+    float: right;
+}
+
+#menu {
+    background-color: #F0F0F0;
+    padding: 10px 40px;
+}
+
+
+footer {
+    background-color: #3E1305;
+    color: white;
+    padding: 2px 40px;
+}
+
+svg {
+    fill: white;
+}

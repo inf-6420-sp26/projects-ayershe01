@@ -6,36 +6,67 @@ body {
 header {
     color: white;
     margin-top: 0;
-    padding: 1em;
+    padding: 10px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/project3/timesquare.JPG);
     background-size: cover;
     background-position: center;
     text-shadow: 2px 2px #000000;
 }
-
 main {
-    background-color:rgb(173, 199, 205);
-    margin: 0;
-    padding: 1em;
-    display: flex;
+    background-color: rgb(168, 208, 226);
+    padding: 10px;
 }
 
-.about {
-    flex-basis: 80%;
-    padding: 1em;
+.navigation {
     border-color: rgb(40, 73, 80);
     border: solid;
     border-radius: 25px;
     background-color: rgb(47, 160, 186);
-    margin: 1em;
+    padding: 10px;
+    margin-bottom: 5px;
 }
 
-.box {
-    padding: 1em;
+.about {
     border-color: rgb(40, 73, 80);
     border: solid;
     border-radius: 25px;
-    margin-bottom: 1em;
+    background-color: rgb(47, 160, 186);
+    padding: 10px;
+}
+
+.box {
+    padding: 10px;
+    border-color: rgb(40, 73, 80);
+    border: solid;
+    border-radius: 25px;
+    margin-bottom: 5px;
+}
+
+@media (min-width:500px) {
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    flex-basis: 65%;
+}
+
+.right {
+    flex-basis: 33%;
+    margin: 5px;
+}
+}
+
+@media (min-width:1000px) {
+.container{
+    flex-basis: 75%;
+}
+
+.right {
+    flex-basis: 23%;
+    margin: 5px;
+}
 }
 
 h3 {
@@ -50,10 +81,32 @@ li {
     padding-left: 1em;
 }
 
+figure{
+    float:right;
+}
+
+img {
+    border-style: solid;
+    border-color: black;
+}
+
+.masquerade figcaption {
+    font-style:italic;
+    max-width: 300px;
+    text-align: center;
+}
+
+.bib figcaption {
+    font-style:italic;
+    max-width: 200px;
+    text-align: center;
+}
+
 .about img{
     float: left;
-    padding-right: 1em;
-    padding-bottom: 1em;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border: none;
 }
 
 footer {

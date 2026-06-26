@@ -12,6 +12,17 @@ header {
     background-position: center;
     text-shadow: 2px 2px #000000;
 }
+
+header a:link {
+    color: white;
+    text-decoration: none;
+}
+
+header a:visited {
+    color: white;
+    text-decoration: none;
+}
+
 main {
     background-color: rgb(168, 208, 226);
     padding: 10px;

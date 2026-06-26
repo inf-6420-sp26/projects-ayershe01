@@ -34,7 +34,8 @@ main {
     border-radius: 25px;
     background-color: rgb(47, 160, 186);
     padding: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px #000000;
 }
 
 .about {
@@ -43,14 +44,26 @@ main {
     border-radius: 25px;
     background-color: rgb(47, 160, 186);
     padding: 10px;
+    box-shadow: 5px 5px #000000;
 }
 
 .box {
     padding: 10px;
     border-color: rgb(40, 73, 80);
     border: solid;
-    border-radius: 25px;
-    margin-bottom: 5px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px black;
+}
+
+.contactform {
+    border-style:dashed;
+    border-color: rgb(113, 159, 180);
+    padding: 10px;
+}
+
+textarea {
+    width:100%;
 }
 
 @media (min-width:500px) {
@@ -64,8 +77,8 @@ main {
 }
 
 .right {
-    flex-basis: 33%;
-    margin: 5px;
+    flex-basis: 30%;
+    margin: 10px;
 }
 }
 
@@ -74,9 +87,10 @@ main {
     flex-basis: 75%;
 }
 
+
 .right {
-    flex-basis: 23%;
-    margin: 5px;
+    flex-basis: 20%;
+    margin: 10px;
 }
 }
 

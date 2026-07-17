@@ -14,11 +14,6 @@ main {
     margin: 1em;
 }
 
-.videoviewer {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    margin: 1em;
-}
 
 .video {
     padding: 1em;
@@ -70,6 +65,12 @@ video {
 .description {
     flex-basis: 50%;
 }
+}
+
+.videoviewer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 1em;
 }
 
 footer {

@@ -22,15 +22,38 @@
     <main>
         <div class="videoviewer">
             <div class="video">
+                 <video controls autoplay poster="thumbnail.png" muted>
+                    <source src="matchingshirts.mp4" type="video/mp4">
+                    <track kind="captions" src="matchingshirts.vtt" srclang="en" label="English">
 
+                    Your broswer does not support the video tag.
+                </video>
             </div>
 
             <div class="description">
-                <h2>Title</h2>
-                <p>Description</p>
-                <a href="https://www.instagram.com/reel/DaNTlKmjuG8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img src="../instagram.svg" alt="Click here to view video on Instagram" height="35px">Click here to view on Instagram!</a>
+                <h2>We can't all match...</h2>
+                <p>Our staff goes to measures to make sure they have unique things, but Summer Reading can make that difficult! Check out to dino-mite shirts we got for the 2026 Summer Reading Program: Unearth a Story!</p>
+                <a href="https://www.instagram.com/reel/DaNTlKmjuG8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img src="../instagram.svg" alt="Click here to view video on Instagram" height="35">Click here to view on Instagram!</a>
                 <br>
-                <a href="https://www.facebook.com/share/r/1GYTd4hNA9/"> <img src="../facebook-fill.svg" alt="Click here to view video on Facebook" height="35px">Click here to view on Facebook!</a>
+                <a href="https://www.facebook.com/share/r/1GYTd4hNA9/"> <img src="../facebook-fill.svg" alt="Click here to view video on Facebook" height="35">Click here to view on Facebook!</a>
+            
+                <form>
+                    <h2>Comments</h2>
+
+                    <div class="name">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="message">
+                        <label for="comment-box"></label>
+                        <textarea id="comment-box" name="user_comments" rows="5" placeholder="Leave your comments here!"></textarea>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit">Submit Comment</button>
+                    </div>
+                </form>
             </div>
 
         </div>

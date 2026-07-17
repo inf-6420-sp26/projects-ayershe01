@@ -92,3 +92,7 @@ h2 {
     color: #2F575D;
     margin-top: 0%;
 }
+
+textarea {
+    width:100%;
+}

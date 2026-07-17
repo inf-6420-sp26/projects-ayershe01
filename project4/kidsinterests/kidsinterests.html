@@ -22,13 +22,12 @@
     <main>
         <div class="videoviewer">
             <div class="video">
-                <video controls preload="metadata" poster="kidsinterests.png" muted>
+                <video controls autoplay poster="thumbnail.png" muted>
                     <source src="kidsinterests.mp4" type="video/mp4">
                     <track kind="captions" src="kidsinterests.vtt" srclang="en" label="English">
 
                     Your broswer does not support the video tag.
                 </video>
-
             </div>
 
             <div class="description">
@@ -37,11 +36,33 @@
                 <a href="https://www.instagram.com/reel/DYHmu2GjW8Y/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img src="../instagram.svg" alt="Click here to view video on Instagram" height="35px">Click here to view on Instagram!</a>
                 <br>
                 <a href="https://www.facebook.com/share/r/1AbGMzrS1t/"> <img src="../facebook-fill.svg" alt="Click here to view video on Facebook" height="35px">Click here to view on Facebook!</a>
+                
+                <br>
+                <br>
+
+                <form>
+                    <h2>Comments</h2>
+
+                    <div class="name">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="message">
+                        <label for="comment-box"></label>
+                        <textarea id="comment-box" name="user_comments" rows="5" placeholder="Leave your comments here!"></textarea>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit">Submit Comment</button>
+                    </div>
+                </form>
+        
             </div>
 
         </div>
-    </main>
 
+    </main>
 
     <footer>
         &copy;2026 | Hanah Ayers

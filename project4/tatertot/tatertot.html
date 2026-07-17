@@ -22,15 +22,41 @@
     <main>
         <div class="videoviewer">
             <div class="video">
+                <video controls autoplay poster="thumbnail.png" muted>
+                    <source src="tatertot.mp4" type="video/mp4">
+                    <track kind="captions" src="tatertot.vtt" srclang="en" label="English">
 
+                    Your broswer does not support the video tag.
+                </video>
             </div>
 
             <div class="description">
-                <h2>Title</h2>
-                <p>Description</p>
-                <a href="https://www.instagram.com/reel/DW95cTliBsk/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img src="../instagram.svg" alt="Click here to view video on Instagram" height="35px">Click here to view on Instagram!</a>
+                <h2>The Library's New Staff Member</h2>
+                <p>When a book is found damanged at the library, the newest staff member gets blamed! This new member is cuter than anyone could expect, though... Meet Tater Tot, Darci's new pet, and instant social media star!</p>
+                <a href="https://www.instagram.com/reel/DW95cTliBsk/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img src="../instagram.svg" alt="Click here to view video on Instagram" height="35">Click here to view on Instagram!</a>
                 <br>
-                <a href="https://www.facebook.com/share/r/19xwX3q424/"> <img src="../facebook-fill.svg" alt="Click here to view video on Facebook" height="35px">Click here to view on Facebook!</a>
+                <a href="https://www.facebook.com/share/r/19xwX3q424/"> <img src="../facebook-fill.svg" alt="Click here to view video on Facebook" height="35">Click here to view on Facebook!</a>
+            
+                <br>
+                <br>
+                
+                <form>
+                    <h2>Comments</h2>
+
+                    <div class="name">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="message">
+                        <label for="comment-box"></label>
+                        <textarea id="comment-box" name="user_comments" rows="5" placeholder="Leave your comments here!"></textarea>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit">Submit Comment</button>
+                    </div>
+                </form>
             </div>
 
         </div>

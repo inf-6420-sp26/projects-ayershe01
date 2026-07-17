@@ -8,6 +8,8 @@ header {
     background-color: #C4CDC1;
     margin: 0;
     padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
 }
 
 main {
@@ -93,6 +95,11 @@ h2 {
     margin-top: 0%;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
 textarea {
-    width:100%;
+    max-width: 95%;
 }

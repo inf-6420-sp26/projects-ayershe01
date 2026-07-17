@@ -22,15 +22,36 @@
     <main>
         <div class="videoviewer">
             <div class="video">
+                <source src="stillwaiting.mp4" type="video/mp4">
+                <track kind="captions" src="stillwaiting.vtt" srclang="en" label="English">
 
+                Your broswer does not support the video tag.
             </div>
 
             <div class="description">
-                <h2>Title</h2>
-                <p>Description</p>
+                <h2>Are you still waiting?</h2>
+                <p>You might be waiting on the book to hit Tristen, but we're waiting on you to come to the library! Check out our main branch in Rocky Mount, our branch at the Westlake Town Center, or catch our Bookmobile around the county!</p>
                 <a href="https://www.instagram.com/reel/DYPHPnCDWmM/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img src="../instagram.svg" alt="Click here to view video on Instagram" height="35px">Click here to view on Instagram!</a>
                 <br>
                 <a href="https://www.facebook.com/share/r/1BmfgEk465/"> <img src="../facebook-fill.svg" alt="Click here to view video on Facebook" height="35px">Click here to view on Facebook!</a>
+            
+                <form>
+                    <h2>Comments</h2>
+
+                    <div class="name">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="message">
+                        <label for="comment-box"></label>
+                        <textarea id="comment-box" name="user_comments" rows="5" placeholder="Leave your comments here!"></textarea>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit">Submit Comment</button>
+                    </div>
+                </form>
             </div>
 
         </div>

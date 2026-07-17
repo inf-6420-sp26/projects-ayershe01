@@ -10,6 +10,16 @@ header {
     padding: 1em;
     display: grid;
     grid-template-columns: 1fr 5fr;
+    outline: solid;
+    outline-color: #2F575D;
+    outline-width: 5px;
+}
+
+.navigation {
+    grid-column: span 6;
+    font-style: bold;
+    text-align: center;
+    padding-top: 1em;
 }
 
 main {
@@ -26,6 +36,7 @@ main {
 
 img {
     max-width: 95%;
+    tab-size: 0;
 }
 
 video {
@@ -102,4 +113,32 @@ form {
 
 textarea {
     max-width: 95%;
+}
+
+a {
+    color: #2F575D;
+}
+
+.navigation a {
+    outline-style: ridge;
+    outline-color:#2F575D;
+    outline-width: 7px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: #DEE1DD;
+}
+
+input:focus-visible {
+    outline: solid;
+    outline-color: black;
+}
+
+textarea:focus-visible {
+    outline: solid;
+    outline-color: black;
+}
+
+a:focus-visible {
+    outline: solid;
+    outline-color: black;
 }

@@ -49,6 +49,12 @@ video {
 .description {
     flex-basis: 55%;
 }
+
+.videoviewer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 1em;
+}
 }
 
 @media (min-width: 1200px) {
@@ -67,11 +73,6 @@ video {
 }
 }
 
-.videoviewer {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    margin: 1em;
-}
 
 footer {
     background-color: #C4CDC1;

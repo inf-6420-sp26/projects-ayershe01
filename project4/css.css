@@ -31,6 +31,14 @@ img {
     max-width: 95%;
 }
 
+video {
+    max-width: 95%;
+}
+
+.description {
+    margin: 1em;
+}
+
 @media (min-width:750px) {
 .gallery {
     display: grid;
@@ -53,6 +61,14 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 1em;
+}
+
+.thumbnail {
+    flex-basis: 50%
+}
+
+.description {
+    flex-basis: 50%;
 }
 }
 

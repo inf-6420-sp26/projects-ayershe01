@@ -111,8 +111,13 @@ form {
     flex-direction: column;
 }
 
+.flex-item {
+  flex: 1;
+  min-width: 0;
+}
+
 textarea {
-    max-width: 95%;
+  width: 100%;
 }
 
 a {

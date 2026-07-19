@@ -156,3 +156,30 @@ a:focus-visible {
     outline: solid;
     outline-color: black;
 }
+
+.comments {
+text-align: center;
+}
+
+.commentbox {
+    background-color: white;
+    border: solid;
+    border-color: black;
+    max-width: 800px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+.commentbox h3 {
+    line-height: 0;
+}
+
+.commentbox img {
+    margin: 5px;
+}
+
+.commenttext {
+    text-align: left;
+    margin-left: 1em;
+}

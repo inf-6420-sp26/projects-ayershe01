@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+   
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Hannah Ayers">
+        <title>Cats</title>
+        <link rel="stylesheet" href="../../css/styles.css">
+ </head>
+
+<body>
+
+    <header>
+        <div class="logotitle">
+            <div class="logo">
+                <a href="../../index.html"><img src="../../assets/images/sitelogo.png" alt="website logo" height="100"></a>
+            </div>
+
+            <div class="headerinfo">
+                <h1>Nature Video Library</h1>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <a href="../../../index.html">INF 6420 Projects</a> &emsp; &emsp; &emsp;
+            <a href="../../index.html">Nature Video Home</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="videoviewer">
+            <div class="video">
+                <video controls autoplay poster="video-3-frame1.jpg" muted>
+                    <source src="video-3.mp4" type="video/mp4">
+                    <track kind="captions" src="video-3.vtt" srclang="en" label="English">
+
+                    Your broswer does not support the video tag.
+                </video>
+            </div>
+
+            <div class="videoinfo">
+                <h2>Cats</h2>
+                <p>Fun Fact: Calico cats receive their distinct color due to the X chromosome, so roughly 99.9% of calico cats are female.</p>
+        </div>
+    </main>
+
+    <form>
+        <h2>Comments</h2>
+
+        <div class="name">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="message">
+            <label for="comment-box"></label>
+            <textarea id="comment-box" name="user_comments" rows="5" placeholder="Leave your comments here!"></textarea>
+        </div>
+
+        <div class="form-actions">
+            <button type="submit">Submit Comment</button>
+        </div>
+    </form>
+
+    <footer>
+        &copy;2026 | Hannah Ayers
+    </footer>
+
+</body>

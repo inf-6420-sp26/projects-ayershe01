@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    background-color: #DEE1DD;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #C4CDC1;
+    margin: 0;
+    padding: 1em;
+    outline: solid;
+    outline-color: #2F575D;
+    outline-width: 5px;
+    align-items: center;
+}
+
+.logotitle {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    font-style: bold;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+main {
+    margin: 1em;
+}
+
+
+.video {
+    padding: 1em;
+    border-style: solid;
+    border-color: #C4CDC1;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.video:hover {
+    box-shadow: none;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    tab-size: 0;
+}
+
+video {
+    max-width: 95%;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+}
+
+.summary {
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 1em;
+}
+
+@media (min-width:750px) {
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1em;
+}
+.video {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+.videoviewer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1em;
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.navigation {
+    text-align: right;
+}
+}
+
+@media (min-width: 1200px) {
+.gallery {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+}
+
+
+footer {
+    background-color: #C4CDC1;
+    outline: solid;
+    outline-color: #2F575D;
+    outline-width: 5px;
+}
+
+svg {
+    stroke:black;
+    fill: black;
+}
+
+h1 {
+    color: #28363D;
+    margin-bottom: 0%;
+}
+
+h2 {
+    color: #2F575D;
+    margin-top: 0%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+.flex-item {
+  flex: 1;
+  min-width: 0;
+}
+
+textarea {
+  width: 100%;
+}
+
+a {
+    color: #2F575D;
+}
+
+input:focus-visible {
+    outline: solid;
+    outline-color: black;
+}
+
+textarea:focus-visible {
+    outline: solid;
+    outline-color: black;
+}
+
+a:focus-visible {
+    outline: solid;
+    outline-color: black;
+}
